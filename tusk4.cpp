@@ -72,4 +72,11 @@ int main()
 		std::cout << "Not enough compatibble bills!" << std::endl;
 		return 1;
 	}
+
+	int bills[5] = { 100,200,500,1000,5000 };
+	int money[1000];
+
+	std::cout << "Operation: ";
+	std::string operation;
+	std::cin >> operation;
 }
