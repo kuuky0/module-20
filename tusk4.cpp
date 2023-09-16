@@ -73,5 +73,7 @@ int main()
 		return 1;
 	}
 
-	
+	std::cout << "sksk" << std::endl;
+	std::cout << "sksk" << std::endl;
+	std::cout << "sksk" << std::endl;
 }
