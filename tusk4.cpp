@@ -73,17 +73,5 @@ int main()
 		return 1;
 	}
 
-	std::cout << "Operation: ";
-	std::string operation;
-
-	std::cout << "Operation: ";
-	std::string operation;
-	std::cin >> operation;
-	std::cout << "Operation: ";
-	std::string operation;
-	std::cin >> operation;
-	std::cout << "Operation: ";
-	std::string operation;
-	std::cin >> operation;
-	std::cin >> operation;
+	
 }
