@@ -73,7 +73,6 @@ int main()
 		return 1;
 	}
 
-	std::cout << "sksk" << std::endl;
-	std::cout << "sksk" << std::endl;
-	std::cout << "sksk" << std::endl;
+	td::cout << "Not enough compatibble bills!" << std::endl;
+	return 1;
 }
