@@ -69,10 +69,5 @@ int main()
 				}
 			}
 		}
-		std::cout << "Not enough compatibble bills!" << std::endl;
-		return 1;
-	}
-
-	td::cout << "Not enough compatibble bills!" << std::endl;
-	return 1;
+	};
 }
