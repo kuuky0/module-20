@@ -3,6 +3,10 @@
 #include <cstdlib>
 #include <ctime>
 
+class {
+int ammo;
+};
+
 int main()
 {
 	int bills[5] = { 100,200,500,1000,5000 };
