@@ -2,6 +2,8 @@
 #include <fstream>
 #include <cstdlib>
 #include <ctime>
+#include <thread>
+#include <chrono>
 
 int main()
 {
@@ -70,4 +72,13 @@ int main()
 			}
 		}
 	};
+
+	int i = 0;
+	int summ = 0;
+	while (i < 10)
+	{
+		summ += i;
+		std::this_thread::sleep_for(std::chrono::seconds(1));
+	}
+	std::cout << "summ of elements: " << summ << std::endl;
 }
