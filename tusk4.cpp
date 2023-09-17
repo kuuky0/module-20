@@ -5,6 +5,10 @@
 #include <thread>
 #include <chrono>
 
+class {
+int ammo;
+};
+
 int main()
 {
 	int bills[5] = { 100,200,500,1000,5000 };
@@ -80,5 +84,16 @@ int main()
 		summ += i;
 		std::this_thread::sleep_for(std::chrono::seconds(1));
 	}
+<<<<<<< HEAD
 	std::cout << "summ of elements: " << summ << std::endl;
 }
+=======
+
+	int bills[5] = { 100,200,500,1000,5000 };
+	int money[1000];
+
+	std::cout << "Operation: ";
+	std::string operation;
+	std::cin >> operation;
+}
+>>>>>>> 79deb6ecb5b2a38a978b0a5f14a82289a25fe664
